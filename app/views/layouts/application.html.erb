@@ -8,10 +8,48 @@
     <%= csrf_meta_tags %>
   </head>
 
+<div class="homepage container">
   <body>
     <%= yield %>
+
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="http://thementalnote.ucla.edu/wp-content/uploads/2012/09/running_joints_1209.jpg">
+        <div class="caption">
+          <h3>Track your runs</h3>
+          <p>Keep track of your runs with Runline's personal dashboard.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="http://thementalnote.ucla.edu/wp-content/uploads/2012/09/running_joints_1209.jpg">
+        <div class="caption">
+          <h3>Run with friends</h3>
+          <p>Get competitive by comparing your run log with a friend's.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+          <img src="http://thementalnote.ucla.edu/wp-content/uploads/2012/09/running_joints_1209.jpg">
+        <div class="caption">
+          <h3>Step up your game</h3>
+          <p>Watch your stats improve over time on Runline's personal stats page.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+        </div>
+      </div>
+      </div>
+    </div>
+
     <%= flash.notice %>
   </body>
+</div>
 
    <footer>
     <div class="container">
